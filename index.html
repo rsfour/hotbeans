@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HotBeans Wensite</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+
+
+
+
+
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right w3-hoverable"></i>HotBeans</a>
+  <a href="hotbeans team.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hoverable">Team</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-hoverable" title="Notifications">Careers <i class="fa fa-caret-down"></i></button>    
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="hotbeans job opportunites.html" class="w3-bar-item w3-button w3-hoverable">Job Opportunites</a>
+      <a href="hotbeans apply now.html" class="w3-bar-item w3-button w3-hoverable">Apply Now</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<div class="w3-container">
+
+  <div class="w3-panel w3-leftbar w3-sand">
+    <p class="w3-xxlarge w3-serif"><i>"Make it as simple as possible, but not simpler."</i></p>
+    <p>Albert Einstein-1933</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+<style>
+    .mySlides {display:none}
+    </style>
+    <body>
+    
+    <div class="w3-container">
+     
+    </div>
+    
+    <div class="w3-content" style="max-width:800px">
+      <img class="mySlides" src="https://images.unsplash.com/photo-1545670723-196ed0954986?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" style="width:100%">
+      <img class="mySlides" src="https://miro.medium.com/v2/resize:fit:3840/1*vXjx4Y7EgQBwALkaeZJ0Cg.jpeg" style="width:100%">
+      <img class="mySlides" src="https://www.wedesignit.co.uk/media/2019/04/We-Design-It-Website-Development-Team.jpeg" style="width:100%">
+    </div>
+    
+    <div class="w3-center">
+      <div class="w3-section">
+        <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+        <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+      </div>
+
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-red", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-red";
+    }
+    </script>
+    
+    </body>
+
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our workers Comments Of The week</h2>
+</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <div class="w3-container">
+  <h3>Ashley Kufandirori</h3>
+  <h4>'Chief Technology Officer'</h4>
+  <p>'Why did the web designer storm out of the restaurant?
+   She was offended by the table layout.'</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <div class="w3-container">
+  <h3>Sabdi Cumar</h3>
+  <h4>'Assistant Web Developer'</h4>
+  <p>'Great web design without functionality is like a sports car with no engine.'</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <div class="w3-container">
+  <h3>William Shatner</h3>
+  <h4>'Graphic Designer'</h4>
+  <p>'Design creates culture. Culture shapes values.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
